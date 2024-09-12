@@ -1,3 +1,8 @@
 body{
     background-color: gray;
 }
+.bi-heart:hover{
+    border-radius:50%;
+    color:black;
+    background-color: darkred;
+}
