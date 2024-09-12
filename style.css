@@ -6,3 +6,6 @@ body{
     color:black;
     background-color: darkred;
 }
+li{
+   list-style-type: none; 
+}
