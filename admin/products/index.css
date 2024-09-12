@@ -1,0 +1,45 @@
+
+.header-container{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    color: azure;
+    font-size: larger;
+    padding-left: 5%;
+}
+.main{
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr 2fr 3fr;
+}
+.body{
+    display: flex;
+    display: wrap;
+
+}
+.left-column{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.form{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(201, 197, 197);
+}
+.button{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.white{
+    background-color: rgb(243, 243, 241);
+}
+.top{
+    font-weight: bold;
+    background-color: gray;
+}
+.row{
+    display:flex;
+    border: 1px solid black;
+}
