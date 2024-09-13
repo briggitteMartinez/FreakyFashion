@@ -1,0 +1,23 @@
+
+.header-container{
+    display: flex;
+    background-color: #363030;
+    height: 100px;
+    color: azure;
+    font-size: larger;
+    padding-left: 5%;
+}
+
+.body{
+    display: flex;
+    display: wrap;
+
+}
+.left-column{
+    grid-column-start: 1;
+    grid-row:span 3;
+    border: 1px solid black;
+}
+h3{
+    flex-shrink: 20;
+}

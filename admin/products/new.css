@@ -1,0 +1,11 @@
+.body{
+    height: 100vh;
+    display: flex;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.form{
+    justify-content: left;
+}

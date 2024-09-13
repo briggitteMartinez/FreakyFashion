@@ -1,32 +1,10 @@
-
-.header-container{
-    display: flex;
-    background-color: #363030;
-    height: 100px;
-    color: azure;
-    font-size: larger;
-    padding-left: 5%;
-}
 .main{
     height: 100vh;
     display:grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: auto 80% 10%;
     grid-template-rows: 5rem 2fr 60% 1fr;
 }
-.body{
-    display: flex;
-    display: wrap;
 
-}
-.left-column{
-    grid-column-start: 1;
-    grid-row:span 3;
-    border: 1px solid black;
-}
-h3{
-    text-align: center;
-    flex-shrink: 20;
-}
 h2{
     grid-column-start: 2;
     grid-column-end:3
@@ -34,7 +12,7 @@ h2{
 .button{
     align-self: center;
 }
-.form{
+.table{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 1fr;

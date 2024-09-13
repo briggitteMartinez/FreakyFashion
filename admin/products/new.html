@@ -2,8 +2,80 @@
 <html lang="sv">
 <head>
     <title>Administration</title>
+    <link rel="stylesheet" href="./new.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <header>
+        <div class="header-container">
+            <h1>Administration</h1>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left-column">
+                <h3>Produkter</h3>
+            </div>
+            <div>         
+            <h2>Ny produkt</h2>
+            </div>  
+            <form class="form">
+                <div class="row">
+                    <h3>Namn</h3>
+                    <input type="text" placeholder=""> 
+                </div>
+                <div class="row">
+                    <h3>Beskrivning</h3>
+                    <input type="text" placeholder=""> 
+                </div>
+                <div class="row">
+                    <h3>Bild</h3>
+                    <input type="file" > 
+                </div>
+                <div class="row">
+                    <h3>SKU</h3>
+                    <input type="text" placeholder=""> 
+                </div>
+                <div class="row">
+                    <h3>Pris</h3>
+                    <input type="number" placeholder="enbart nummer"> 
+                </div>
+                <div class="row">
+                    <h3></h3>
+                    <div>
+                        <label>                           
+                            <input type="checkbox" name="t-shirts" />
+                            T-Shirts
+                        </label>
+                    </div>
+                    <div>
+                        
+                        <label>                           
+                            <input type="checkbox" name="sommar" />
+                            Sommar
+                        </label>
+                    </div>
+                    <div>
+                        
+                        <label>                           
+                            <input type="checkbox" name="Byxor" />
+                            Byxor
+                        </label>
+                    </div>
+                    <div>
+                        
+                        <label>                           
+                            <input type="checkbox" name="skor" />
+                            Skor
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <button>Lägg till</button>
+                </div>
+            </form>
+        </div>    
+    </main>
     
 </body>
 </html>
