@@ -17,34 +17,38 @@
             <div class="left-column">
                 <h3>Produkter</h3>
             </div>
-            <h2>Produkter</h2>
-            <div class="button"><a href="./new.html"><button>Ny produkt</button></a></div>
-            
-            <form class="table">
-                <div class="column">
-                    <div class="row top">Namn</div>
-                    <div class="row">Svart T-Shirt</div>
-                    <div class="row white">Vit T-Shirt</div>
-                    <div class="row">...</div>
-                </div>
-                <div class="column">
-                    <div class="row top">SKU</div>
-                    <div class="row">AAA111</div>
-                    <div class="row white">BBB111</div>
-                    <div class="row ">...</div>
-                </div>
-                <div class="column">
-                    <div class="row top">Pris</div>
-                    <div class="row ">199</div>
-                    <div class="row white">199</div>
-                    <div class="row ">...</div>
-                </div>
-
-            </form>
-            <div class="footer"></div>
-        </div>
+                <h2>Produkter</h2>
+                <div class="button"><a href="./new.html"><button>Ny produkt</button></a></div>          
+                
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Namn</th>
+                        <th scope="col">SKU</th>
+                        <th scope="col">Pris</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Svart T-Shirt</th>
+                        <td>AAA111</td>
+                        <td>199</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Vit T-Shirt</th>
+                        <td>BBB111</td>
+                        <td>199</td>
+                    </tr>
+                </tbody>
+                <tfoot>               
+                    <tr>
+                        <th scope="row">...</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="footer"></div>   
     </main>
-
-    
 </body>
 </html>

@@ -4,7 +4,7 @@ body{
 .bi-heart:hover{
     border-radius:50%;
     color:black;
-    background-color: darkred;
+    background: darkred;
 }
 li{
    list-style-type: none; 

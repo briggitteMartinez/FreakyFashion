@@ -7,35 +7,38 @@
 
 h2{
     grid-column-start: 2;
-    grid-column-end:3
-}
-.button{
-    align-self: center;
-}
-.table{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    background-color: rgb(201, 197, 197);
-    grid-column-start: 2;
-    grid-column-end:4;
+    grid-column-end:3;
+    padding-left:8px;
 }
 .button{
     grid-row-start: 1;
     grid-column-start: 3;
     grid-column-end: 4;
+    align-self: center;
 }
-.white{
-    background-color: rgb(243, 243, 241);
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(60, 59, 59);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    grid-column-start: 2;
+    grid-column-end:4;
+    margin:10px;
 }
-.top{
-    font-weight: bold;
+thead{
     background-color: gray;
 }
-.row{
-    display:flex;
-    border: 1px solid black;
+th,td{
+    border:2px solid black;
+    padding:8px;
+}
+td{
+    height: 50px;
+    align-content: flex-start;
+}
+tbody,tfoot{
+background-color: rgb(234, 234, 234);
 }
 .footer{
-    display:box;
+    display:inline-flex;
 }
