@@ -8,7 +8,7 @@
 h2{
     grid-column-start: 2;
     grid-column-end:3;
-    padding-left:8px;
+    
 }
 .button{
     grid-row-start: 1;

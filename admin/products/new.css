@@ -5,7 +5,9 @@
 .main{
     display: grid;
     grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr 1fr;
 }
 .form{
     justify-content: left;
+    margin-left: 10px;
 }

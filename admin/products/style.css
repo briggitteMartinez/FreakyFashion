@@ -17,7 +17,11 @@
     grid-column-start: 1;
     grid-row:span 3;
     border: 1px solid black;
+    padding: 8px;
 }
 h3{
     flex-shrink: 20;
+}
+h2{
+    padding-left:10px;
 }
