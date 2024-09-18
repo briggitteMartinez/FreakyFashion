@@ -1,0 +1,120 @@
+
+main{
+background-color: aquamarine;
+}
+/* HERO ---------------------*/
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    width: 100%;
+    gap:20px;
+}
+.hero-container>img{
+    width: 96%;
+    padding: 2%;
+}
+.hero-text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* SPOTS --------------------*/
+.spots-container{
+    display: none;
+}
+
+/*PRODUCTS------------------*/
+.products-container{
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+}
+.product-container img{
+    width: 100%;
+}
+h4{
+    margin: 0;
+    font-size: xx-large;
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    margin-top: 20px;
+    text-align: center;    
+    border-radius: 5px;
+    position: absolute;
+}
+
+
+
+@media (min-width: 640px) {
+    body{
+        background-color: brown;
+    }
+
+    .products-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    body{
+        background-color: black;
+    }
+     main{
+        display: grid;
+     }
+    /* HERO ---------------------------*/
+    .hero-container{
+        display: flex; 
+        flex-direction: row-reverse;
+    }
+    .hero-container>img{
+       flex:1
+    }
+    .hero-text{
+        flex:1;
+    }  
+    /* SPOTS ----------------------------*/
+    .spots-container{
+        display: flex;
+        justify-content: center;
+        position:relative;
+        gap:20px;
+        margin: 10px;
+    }
+    .spots{
+        flex:1;
+        justify-content: center;
+    }
+
+    .spots img{
+        flex:1;
+        width: 100%;
+        height: 80%;    
+    }
+    .spot-text{
+        text-align: center;
+        width: 32%;
+        position: absolute;
+        top: 30%; 
+    }
+
+    .spot-text > h2 {
+        color: aliceblue;
+        font-size: xx-large;
+        background: rgba(0, 0, 0, 0.2);  
+    }
+    /* PRODUCT CARDS */
+    .products-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+}

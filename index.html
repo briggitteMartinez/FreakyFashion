@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="sv">
-        <head>
+    <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-        <title>Freaky Fashion</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="index.css">
-        
+            <title>Freaky Fashion</title>
+            <!-- STYLE LINKS-->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="index.css">       
     </head>
+
     <body>
         <!--- HEADER --->
         <header>
             <div class="header-container">
                 <!-- Logo -->
                 <div class="logo-container">
-                    <img src="https://picsum.photos/400/200" alt="Logo"/>
+                    <img src="https://picsum.photos/600/200" alt="Logo"/>
                 </div>
                 <!-- searchbar -->
                 <div class="searchbar-container">
                         <div class="search">
-                            <i class="bi bi-search"><input type="text" placeholder="Sök product"></i>      
+                            <input type="search" placeholder="Sök product">     
+                            <i class="bi bi-search"></i>
                         </div>         
                         <div class="icons">
                             <a href="#"><i class="bi bi-heart-fill"></i></a>
                             <a  href="#"><i class="bi bi-basket"></i></a> 
-                        </div>          
-                </div>
-                <!-- Navbar -->
-                <div class="navbar-container">
-                    <nav>
-                        <ul>
-                        <li><a href="#">Nyheter</a></li>
-                        <li><a href="#">Topplistan</a></li>
-                        <li><a href="#">Rea</a></li>
-                        <li><a href="#">Kampanjer</a></li>
-                        </ul>
-                    </nav>       
+                       </div>          
                 </div>
             </div>
+            <!-- Navbar -->
+            <nav class="navbar-container">
+                <ul>
+                    <li><a href="#">Nyheter</a></li>
+                    <li><a href="#">Topplistan</a></li>
+                    <li><a href="#">Rea</a></li>
+                    <li><a href="#">Kampanjer</a></li>    
+                </ul>
+            </nav>       
         </header>
         <!--- MAIN --->
         <main>
             <!-- Hero -->
             <div class="hero-container">
-                <img src="https://picsum.photos/600/300" alt="Hero image">
+                <img src="https://picsum.photos/600/400" alt="Hero image">
                 <div class="hero-text">
                     <h1>Lorem ipsum dolor</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus perferendis dignissimos illum! Cumque sapiente exercitationem, iusto temporibus possimus non quasi</p>
@@ -54,29 +54,25 @@
             <!-- Spots -->
             <div class="spots-container">
                 <div class="spots">
-                    <a href="#"><img class="spot-img" src="https://placehold.co/100x100/png" alt=""/></a>
-                    <div class="spot-text">Första Spot</div>
+                    <a href="#"><img class="spot-img" src="https://picsum.photos/300/200" alt=""/></a>
+                    <div class="spot-text"><h2>Spot 1</h2></div>
                 </div>
                 <div class="spots">
-                    <a href="#"><img class="spot-img" src="https://placehold.co/100x100/png" alt=""/></a>
-                    <div class="spot-text">Andra Spot</div>
+                    <a href="#"><img class="spot-img" src="https://picsum.photos/300/200" alt=""/></a>
+                    <div class="spot-text"><h2>Spot 2</h2></div>
                 </div>
                 <div class="spots">
-                    <a href="#"><img class="spot-img" src="https://placehold.co/100x100/png" alt=""/></a>
-                    <div class="spot-text">Tredje Spot</div>
-                </div>
-                <div class="spots">
-                    <a href="#"><img class="spot-img" src="https://placehold.co/100x100/png" alt=""/></a>
-                    <div class="spot-text">Fjärde Spot</div>
+                    <a href="#"><img class="spot-img" src="https://picsum.photos/300/200" alt=""/></a>
+                    <div class="spot-text"><h2>Spot 3</h2></div>
                 </div>
             </div>
             <!-- PRODUKTER -->
             <div class="products-container">
                 <!-- Ny produkt -->
                 <div class="new product-container">
-                    <a href="./product-details.html"><img src="https://placehold.co/200x300/png" alt="product"></a>
+                    <h4><span class="badge">New</span></h4>
+                    <a href="./product-details.html"><img src="https://placehold.co/600x900/png" alt="product"></a>
                     <div class="img-icons">
-                        <div>Nyhet</div>
                         <a href="#"><i class="bi bi-heart-fill"></i></a>
                     </div>
                     <div class="product-text">
@@ -87,18 +83,85 @@
                 </div>
                 <!-- tidigare produkter -->
                 <div class="product-container">
-                    <a href="./product-details.html"><img src ="https://placehold.co/200x300/png" alt="product"></a>
+                    <a href="./product-details.html"><img src ="https://placehold.co/600x900/png" alt="product"></a>
                     <div class="img-icons">
                         <a href="#"><i class="bi bi-heart"></i></a>
                     </div>
-                    <div class="product-text"></div>
+                    <div class="product-text">
                         <h3>Svart T-Shirt</h3>
                         <h3>199 SEK</h3>
                         <p>Levis</p>
                     </div>
                 </div>
+                <div class="product-container">
+                    <a href="./product-details.html"><img src ="https://placehold.co/600x900/png" alt="product"></a>
+                    <div class="img-icons">
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="product-text">
+                        <h3>Svart T-Shirt</h3>
+                        <h3>199 SEK</h3>
+                        <p>Levis</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a href="./product-details.html"><img src ="https://placehold.co/600x900/png" alt="product"></a>
+                    <div class="img-icons">
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="product-text">
+                        <h3>Svart T-Shirt</h3>
+                        <h3>199 SEK</h3>
+                        <p>Levis</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a href="./product-details.html"><img src ="https://placehold.co/600x900/png" alt="product"></a>
+                    <div class="img-icons">
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="product-text">
+                        <h3>Svart T-Shirt</h3>
+                        <h3>199 SEK</h3>
+                        <p>Levis</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a href="./product-details.html"><img src ="https://placehold.co/600x900/png" alt="product"></a>
+                    <div class="img-icons">
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="product-text">
+                        <h3>Svart T-Shirt</h3>
+                        <h3>199 SEK</h3>
+                        <p>Levis</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a href="./product-details.html"><img src ="https://placehold.co/600x900/png" alt="product"></a>
+                    <div class="img-icons">
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="product-text">
+                        <h3>Svart T-Shirt</h3>
+                        <h3>199 SEK</h3>
+                        <p>Levis</p>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <a href="./product-details.html"><img src ="https://placehold.co/600x900/png" alt="product"></a>
+                    <div class="img-icons">
+                        <a href="#"><i class="bi bi-heart"></i></a>
+                    </div>
+                    <div class="product-text">
+                        <h3>Svart T-Shirt</h3>
+                        <h3>199 SEK</h3>
+                        <p>Levis</p>
+                    </div>
+                </div>
+            </div>
                 <!-- övrigt info iconer-->
-                <div class="end-info-container">
+               <div class="end-info-container">
                     <ul>
                         <li><i class="bi bi-globe-americas"></i> Gratis frakt och returer</li>
                         <li><i class="bi bi-airplane-fill"></i> Expressfrakt</li>
@@ -106,7 +169,7 @@
                         <li><i class="bi bi-emoji-smile"></i> Nyheter varje dag</li>
                     </ul>
                 </div>
-            </div>
+           
         </main>
             <!-- FOOTER -->
             <footer>
