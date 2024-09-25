@@ -1,7 +1,10 @@
-.main{
+body{
     height: 100vh;
+}
+.main{
+    width:100%;
     display:grid;
-    grid-template-columns: auto 80% 10%;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 5rem 2fr 60% 1fr;
 }
 
@@ -13,8 +16,9 @@ h2{
 .button{
     grid-row-start: 1;
     grid-column-start: 3;
-    grid-column-end: 4;
     align-self: center;
+    justify-self: right;
+    margin-right: 1em;
 }
 table{
     border-collapse: collapse;
@@ -40,5 +44,5 @@ tbody,tfoot{
 background-color: rgb(234, 234, 234);
 }
 .footer{
-    display:inline-flex;
+    display:flex;
 }

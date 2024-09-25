@@ -21,24 +21,26 @@
             </div>  
             <form class="form">
                 <div class="row">
-                    <h3>Namn</h3>
+                    <label>Namn</label><br>
                     <input type="text" placeholder=""> 
                 </div>
                 <div class="row">
-                    <h3>Beskrivning</h3>
-                    <input type="text" placeholder=""> 
+                    <label for="message">Beskrivning</label><br>
+                    <textarea name="message" id="message" rows="10" cols="30">
+                        
+                        </textarea> 
                 </div>
                 <div class="row">
-                    <h3>Bild</h3>
-                    <input type="file" > 
+                    <label for="pic">Bild</label><br>
+                    <input type="file" id="pic"> 
                 </div>
                 <div class="row">
-                    <h3>SKU</h3>
-                    <input type="text" placeholder=""> 
+                    <label for="sku">SKU</label><br>
+                    <input type="text" id="sku" placeholder=""> 
                 </div>
                 <div class="row">
-                    <h3>Pris</h3>
-                    <input type="number" placeholder="enbart nummer"> 
+                    <label for="price">Pris</label><br>
+                    <input type="number" id="price" placeholder="enbart nummer"> 
                 </div>
                 <div class="row">
                     <h3></h3>
@@ -71,7 +73,7 @@
                     </div>
                 </div>
                 <div class="button">
-                    <button>Lägg till</button>
+                    <input type="submit" value="Submit">
                 </div>
             </form>
         </div>    

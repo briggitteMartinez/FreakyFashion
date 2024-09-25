@@ -6,21 +6,22 @@
     color: azure;
     font-size: larger;
     padding-left: 5%;
+    width: 100%;
+
 }
 
 .body{
     display: flex;
     display: wrap;
+    height: 100vh;
 }
 .left-column{
     grid-column-start: 1;
-    grid-row:span 3;
+    grid-row: span 3;
     border: 1px solid black;
     padding: 8px;
 }
-h3{
-    flex-shrink: 20;
-}
+
 h2{
     padding-left:10px;
 }
