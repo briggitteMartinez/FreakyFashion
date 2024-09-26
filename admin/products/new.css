@@ -1,16 +1,53 @@
-.body{
-    height: 100vh;
+.body {
+  height: 100vh;
 }
-.main{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: auto 2fr 1fr;
+.main {
+  display: grid;
+  grid-template-columns: 20% 2fr;
+  grid-template-rows: auto auto 1fr;
 }
-.form{
-    justify-content: left;
-    margin-left: 10px;
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  padding: 1em;
+}
+.row > input {
+  width: 50%;
+  height: 30px;
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 5px;
 }
 
-.description{
-    grid-column: span 2;
+.form > div {
+  margin-bottom: 2em;
+}
+#message {
+  width: 60%;
+}
+.button > * {
+  border-radius: 12px;
+  padding: 8px;
+  border-color: rgba(0, 0, 0, 0.21);
+}
+.button > input:hover {
+  font-weight: bolder;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="file"] {
+  display: none;
+}
+.pic {
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 5px;
+  padding: 10px 10px 5px;
+  width: 48%;
+}
+textarea {
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 5px;
 }
