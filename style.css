@@ -33,7 +33,7 @@ input {
   height: 2em;
   border-radius: 20px;
   border: 1px;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 input[placeholder] {
@@ -221,6 +221,7 @@ img {
   /*navbar*/
   .navbar-container {
     font-size: large;
+    margin-top: 1em;
   }
   ul {
     display: flex;
@@ -230,6 +231,7 @@ img {
 
   .products-container img {
     height: auto;
+    max-height: 80vh;
   }
   .product-text h3 {
     font-size: large;
@@ -275,7 +277,7 @@ img {
 /*----1024px BREAKPOINT--------------------------------------*/
 @media (min-width: 1024px) {
   /*Header*/
-  .header-container {
+  .header-container .icons{
     font-size: 1.5em;
   }
   /* END INFO*/

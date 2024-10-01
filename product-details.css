@@ -32,13 +32,13 @@ main {
   }
 }
 .product-container > img {
-  max-height: 60vh;
+  max-height: 80vh;
 }
 .products-alike-container {
   display: none;
 }
 
-/*640px*/
+/*----640px BREAKPOINT------------------*/
 @media (min-width: 640px) {
   .product-container {
     width: 100%;
@@ -83,15 +83,17 @@ main {
   }
   .products-alike-container img {
     height: auto;
-    max-width: 300px;
+    max-height: 60vh;
+    max-width: 30vw;
   }
   .product-text {
-    max-width: 300px;
+    max-width: 30vw;
   }
 }
+
+/*---1024px BREAKPOINT-------------------*/
 @media (min-width: 1020px) {
   .products-alike-container img {
-    height: auto;
-    max-width: 400px;
+    max-height: 70vh;
   }
 }
